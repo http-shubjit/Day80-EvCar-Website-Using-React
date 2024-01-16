@@ -1,0 +1,32 @@
+.nav{
+display: flex;
+justify-content: space-between; 
+ align-items: center;
+  margin: 40px 120px;
+  color: aliceblue;
+}
+.navlogo{
+  font-family:Outfit ;
+  font-size: 42px;
+  font-weight: 500;
+}
+.navmenu{
+  display: flex;
+ list-style: none;
+  align-items: center;
+  font-size: 18px;
+  gap: 90px;
+}
+
+.navcontact{
+border-radius:50px ;
+padding: 10px 38px;
+background: #fff;
+color: #262626;
+
+}
+.navcontact:hover{
+background: rgb(62, 62, 168);
+transition: 0.4s;
+
+}
